@@ -114,3 +114,29 @@
 
 -> JUAN : sdfsdfsdf ( 0/7/2015 a las 15:54:51 )
 
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 1/7/2015 a las 15:49:29 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 1/7/2015 a las 15:49:48 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES 2 ( 1/7/2015 a las 15:50:5 )
+
+-> ANDRES 2 : hola ( 1/7/2015 a las 15:50:7 )
+
+-> ANDRES : hola ( 1/7/2015 a las 15:50:10 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 1/7/2015 a las 15:50:48 )
+
+-> JUAN : asdasdasd ( 1/7/2015 a las 15:51:33 )
+
+-> ANDRES : ffghfhfh ( 1/7/2015 a las 15:51:36 )
+
+-------->SE CONECTO EL CLIENTE : PEDRO ( 1/7/2015 a las 15:52:6 )
+
+-------->SE CONECTO EL CLIENTE : MARIA ( 1/7/2015 a las 15:53:4 )
+
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 1/7/2015 a las 16:9:1 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 1/7/2015 a las 16:9:10 )
+
+-------->SE CONECTO EL CLIENTE : JAUN ( 1/7/2015 a las 16:9:23 )
+
