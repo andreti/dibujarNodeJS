@@ -19,6 +19,8 @@ var conectados = 0;
 //variable para el puerto del servidor
 var puerto = 3000;
 
+app.set('port', (process.env.PORT || 5000));
+
 //para los archivos estaticos o recursos
 app.use(express.static(__dirname + '/publica'));
 
@@ -29,9 +31,9 @@ app.get('/', function(req, res){
 
 
 //poner al servidor a escuchar por el puerto dado
-http.listen(puerto, function(){
-	console.log('Servidor escuhando por el puerto :3000');
-	registro.write("------------> SE INICIO EL SERVIDOR POR EL PUERTO :"+puerto +" "+ darFecha()+ '\n\n');
+http.listen(app.get('port'), function(){
+	console.log('Servidor escuhando por el puerto : '+app.get('port') );
+	registro.write("------------> SE INICIO EL SERVIDOR POR EL PUERTO :"+app.get('port') +" "+ darFecha()+ '\n\n');
 });
 
 //cuando alguien se conecta

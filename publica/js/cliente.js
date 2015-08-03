@@ -8,7 +8,8 @@ $(function(){
   }
 
   //url a la cual se va a conectar
-  var url = 'http://localhost:3000';// + window.location.host;
+  var url = 'http://'+window.location.host;//localhost:3000';// + window.location.host;
+  console.log(url);
   // abrimos la conexion
   var socket = io.connect(url);
   //var socket = io();

@@ -140,3 +140,15 @@
 
 -------->SE CONECTO EL CLIENTE : JAUN ( 1/7/2015 a las 16:9:23 )
 
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :5000  ( 1/7/2015 a las 16:54:25 )
+
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :5000  ( 1/7/2015 a las 16:57:29 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 1/7/2015 a las 16:58:28 )
+
+-------->SE CONECTO EL CLIENTE : JAUN ( 1/7/2015 a las 16:58:43 )
+
+-> ANDRES : sdfsdfsd ( 1/7/2015 a las 16:58:48 )
+
+-> JAUN : sdfsdf ( 1/7/2015 a las 16:58:50 )
+
