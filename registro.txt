@@ -1,0 +1,116 @@
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 0/7/2015 a las 14:23:19 )
+
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 0/7/2015 a las 14:24:46 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 14:24:53 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 14:24:56 )
+
+-> ANDRES : hoola ( 0/7/2015 a las 14:25:1 )
+
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 0/7/2015 a las 14:29:20 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 14:29:36 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 14:29:36 )
+
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 0/7/2015 a las 14:30:12 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 14:30:18 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 14:30:42 )
+
+-> ANDRES : jola ( 0/7/2015 a las 14:30:50 )
+
+-> JUAN : sdfsfsdf ( 0/7/2015 a las 14:30:54 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 14:34:23 )
+
+-------->SE CONECTO EL CLIENTE : JJJ ( 0/7/2015 a las 14:34:42 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 14:40:11 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 14:40:16 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 14:52:41 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 14:53:14 )
+
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 0/7/2015 a las 15:7:24 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:7:30 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 15:9:17 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:12:0 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 15:12:12 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 15:17:55 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 15:19:32 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 15:22:46 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:23:10 )
+
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 0/7/2015 a las 15:26:25 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:26:31 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 15:26:38 )
+
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 0/7/2015 a las 15:27:24 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 15:27:39 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:28:18 )
+
+-> ANDRES : hola ( 0/7/2015 a las 15:28:21 )
+
+-> JUAN : hola ( 0/7/2015 a las 15:28:23 )
+
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 0/7/2015 a las 15:29:22 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 15:29:33 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:30:23 )
+
+-> ANDRES : hola ( 0/7/2015 a las 15:30:34 )
+
+-> JUAN : hola ( 0/7/2015 a las 15:30:36 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:37:57 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:39:49 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 15:40:10 )
+
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 0/7/2015 a las 15:48:32 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:48:39 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:48:43 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:49:11 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 15:49:13 )
+
+-------->SE CONECTO EL CLIENTE : ASD ( 0/7/2015 a las 15:49:31 )
+
+-------->SE CONECTO EL CLIENTE : ASDASD ( 0/7/2015 a las 15:49:33 )
+
+------------> SE INICIO EL SERVIDOR POR EL PUERTO :3000  ( 0/7/2015 a las 15:54:4 )
+
+-------->SE CONECTO EL CLIENTE : ANDRES ( 0/7/2015 a las 15:54:13 )
+
+-------->SE CONECTO EL CLIENTE : JUAN ( 0/7/2015 a las 15:54:17 )
+
+-> ANDRES : hola ( 0/7/2015 a las 15:54:24 )
+
+-> JUAN : hola ( 0/7/2015 a las 15:54:26 )
+
+-> ANDRES : sdfdsfsdf ( 0/7/2015 a las 15:54:50 )
+
+-> JUAN : sdfsdfsdf ( 0/7/2015 a las 15:54:51 )
+
