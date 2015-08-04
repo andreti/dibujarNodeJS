@@ -11,14 +11,12 @@ var io = require('socket.io').listen(http);//(http);
 
 //modulo para manejo de archivos
 var fs = require('fs');
-var registro = fs.createWriteStream('registro.txt',{'flags':'a'});
+var registro = fs.createWriteStream(__dirname + '/publica/views/registro.txt',{'flags':'a'});
 
 //numero de conectados actualmente
 var conectados = 0;
 
-//variable para el puerto del servidor
-var puerto = 3000;
-
+//agregar el puerto del servidor
 app.set('port', (process.env.PORT || 5000));
 
 //para los archivos estaticos o recursos

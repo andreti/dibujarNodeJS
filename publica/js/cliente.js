@@ -7,13 +7,6 @@ $(function(){
     return false;
   }
 
-  //url a la cual se va a conectar
-  var url = 'http://'+window.location.host;//localhost:3000';// + window.location.host;
-  console.log(url);
-  // abrimos la conexion
-  var socket = io.connect(url);
-  //var socket = io();
-
   // variables
   var doc = $(document);
   var win = $(window);
@@ -47,25 +40,19 @@ $(function(){
   var msg = document.getElementById("msg");
 
 
+  //url a la cual se va a conectar
+  var url = 'http://'+window.location.host;
+  
+  //variable de la comunicacion con el servidor
+  var socket ;
+  //var socket = io();
 
-  //funcion que valida el mensaje y lo envia al servidor
-  function enviarMensaje(){
-      //validar que el mensaje no este vacio
-      if(validarCadena(msg.value)){
-
-        //le envia al servidor el nuevo mensaje
-        socket.emit('mensajeNuevo',{nick:nombreTxt, mensaje:msg.value});
-
-        //limpiar la caja de texto
-        msg.value = "";
-      }
-  }
-
-
+  //cargamos la funcion principal
+  main();
 
 
   //cuando cargo todo el documento
-  doc.ready(function(){
+  function main(){
 
     //limpiar las cajas de texto
     mensajesTxt.value="";
@@ -80,6 +67,10 @@ $(function(){
     //mostrar el nombre en la pagina
     nombreLbl.innerHTML = nombreTxt;
 
+    // abrimos la conexion
+    socket = io.connect(url);
+
+    //enviamos al servidor el usuario que se conecto
     socket.emit('registrarConexion', nombreTxt );
 
     //agregar evento para el boton de enviar mensaje
@@ -97,11 +88,25 @@ $(function(){
     // boton para limpiar el canvas
     var limpiarCanvas = document.getElementById('clean');
     limpiarCanvas.addEventListener('click',function(){
-      console.log(canvas);
         ctx.clearRect(0, 0, canvas[0].width, canvas[0].height);
     });
 
-  });
+  }
+
+
+
+  //funcion que valida el mensaje y lo envia al servidor
+  function enviarMensaje(){
+      //validar que el mensaje no este vacio
+      if(validarCadena(msg.value)){
+
+        //le envia al servidor el nuevo mensaje
+        socket.emit('mensajeNuevo',{nick:nombreTxt, mensaje:msg.value});
+
+        //limpiar la caja de texto
+        msg.value = "";
+      }
+  }
 
 
 
@@ -115,8 +120,10 @@ $(function(){
 
 //funcion para validar que la cadena no este vacia
   function validarCadena(cadena){
-    cadena = cadena.trim();
-    return cadena == "" ? false : true;
+    if(cadena != null){
+      cadena = cadena.trim();
+      return cadena == "" ? false : true;
+    }
   }
 
 
@@ -206,7 +213,7 @@ $(function(){
 
 //funcion que recibe del servidor el numero de conectados y lo muestra en pantalla
   function mostrarConectados(data) {
-    console.log('connections: ', data.conectados);
+    console.log('conectados: ', data.conectados);
     conectados.text(data.conectados + ' conectados');
   }
 
