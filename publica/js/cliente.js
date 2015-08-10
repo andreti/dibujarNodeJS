@@ -53,7 +53,10 @@ $(function(){
 
   //cuando cargo todo el documento
   function main(){
-
+	
+	canvas[0].width = window.innerWidth;
+	canvas[0].heigth = window.innerHeight;
+	
     //limpiar las cajas de texto
     mensajesTxt.value="";
     msg.value = "";
